@@ -5,6 +5,13 @@ ARG Database
 ARG Username
 ARG Password
 
+ARG TransportTargetHostname 
+ARG TransportTargetPort 
+ARG TransportTargetDatabase 
+ARG TransportTargetUsername
+ARG TransportTargetPassword
+
+
 FROM mcr.microsoft.com/dotnet/runtime:3.1
 RUN apt-get update
 RUN apt-get install -y wget unzip
