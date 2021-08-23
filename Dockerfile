@@ -4,12 +4,14 @@ ARG Port
 ARG Database 
 ARG Username
 ARG Password
+ARG DatabaseFile
 
-ARG TransportTargetHostname 
-ARG TransportTargetPort 
-ARG TransportTargetDatabase 
+ARG TransportTargetHostname
+ARG TransportTargetPort
+ARG TransportTargetDatabase
 ARG TransportTargetUsername
 ARG TransportTargetPassword
+ARG TransportTargetDatabase
 
 
 FROM mcr.microsoft.com/dotnet/runtime:3.1
